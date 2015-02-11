@@ -1,0 +1,147 @@
+/*body*/
+body{
+	text-decoration: courier;
+	color: darkgreen; 
+}
+/*wrapper*/
+
+
+/*header*/
+#header{
+	background-color: darkgreen;
+	color: beige;
+	text-transform: uppercase;
+	font-size: 22px;
+	height: 50px;
+
+
+}
+
+#header ol{
+	list-style-type: none;
+
+}
+
+#header li{
+display: inline;
+}
+
+#header a {
+	text-decoration: none;
+	color: beige;
+	text-transform: uppercase;
+}
+
+#header a:hover {
+	color: #E6CC80;
+}
+/*banner
+	opacity: 0.6;
+    filter: alpha(opacity=60);		*/
+#banner{
+	
+
+}
+
+/*sub-banner
+	opacity: 0.4;
+    filter: alpha(opacity=40);			*/
+#sub-banner{
+	display: inline;
+}
+
+/*gallery_main_page*/
+#gallery_main_page {
+	margin: 4px;
+    padding: 18px;
+    /*border: 1px solid #A3C266;*/
+    height: auto;
+    width: 100%;
+    float: left;
+    /*background-color: #A3C266;
+    text-align: center;*/
+}
+
+#gallery_main_page img{
+	width: 28%;
+	background-color: #A3C266;
+	margin: 4px;
+    padding: 8px;
+    border: 1px solid #A3C266;
+}
+
+/*gallery_pracitcal_page*/
+.practical_img{
+	margin: 20px;
+    padding: 8px;
+    /*border: 1px solid #A3C266;*/
+    height: auto;
+    /*display: block;*/
+    width: 20%;
+    float: left;
+    background-color: none;
+    /*text-align: center;*/
+
+}
+.practical_img h3{
+ 	text-transform: uppercase;
+
+}
+
+.practical_img p{
+ 	/*text-align: center;*/
+ 	clear: left;
+ 	line-height: 22px;
+
+}
+
+.practical_img img{
+	/*margin: 20px;*/
+    padding: 8px;
+    border: 1px solid #A3C266;
+    height: auto;
+    /*display: block;*/
+    width: 200px;
+    float: left;
+    background-color: #A3C266;
+    text-align: center;
+
+}
+
+/*footer
+	opacity: 0.4;
+    filter: alpha(opacity=40);		*/
+#footer_section {
+	margin: 4px;
+    padding: 18px;
+    /*border: 1px solid #A3C266;*/
+    height: auto;
+    width: 100%;
+    float: left;
+    /*background-color: #A3C266;
+    text-align: center;*/
+}
+
+.footer_item {
+	clear: both;
+	margin: 20px;
+    padding: 8px;
+    border: 1px solid #A3C266;
+   	/*opacity: 0.4;
+    filter: alpha(opacity=40);*/	
+    height: auto;
+    /*display: block;*/
+    width: 25%;
+    float: left;
+    background-color: none;
+    /*text-align: center;*/
+
+}
+
+/*copyright*/
+#copyright{
+	clear: both;
+	background-color: darkgreen;
+	color: lightgrey;
+	text-align: center;
+}
