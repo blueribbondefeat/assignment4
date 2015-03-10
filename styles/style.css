@@ -15,11 +15,27 @@ body a:hover {
 	color: #E60000;
 
 } 
+
+/*wrapper*/
+.wrapper{
+	width: 750px;
+	margin: auto;
+}
+
 /*left_page*/
 .left_page {
-	width: 30%;
-	/*float: left;
-	clear: both;*/
+	width: 250px;
+	float: left;
+	/*clear: left;
+}
+
+/*right_page*/
+
+.right_page {
+	width: 500px;
+	float: right;
+
+	
 }
 
 /*logo*/
@@ -32,13 +48,14 @@ body a:hover {
 	height: 288px;
 	width: 275px;
 }
-/*wrapper*/
+
 
 /*links*/
 #links {
 	color: darkred;
 	line-height: 100%;
-	display: block;
+	/*display: block;*/
+	
 }
 
 #links li{
@@ -47,7 +64,7 @@ body a:hover {
 	line-height: 30px;
 }
 
-ul {
+#links ol {
 	list-style-type: none;
 }
 /*intro*/
@@ -64,15 +81,6 @@ ul {
 	text-align: center;
 }
 
-
-/*right_page*/
-
-.right_page {
-	width: 60%;
-	float: right;
-	clear: both;
-	
-}
 /*intro*/
 
 /*gallery_header*/
